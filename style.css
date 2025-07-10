@@ -125,3 +125,75 @@ nav ul li a {
     
         background-color: #0800ff;
     }
+
+    /*productive */
+
+    .productive{
+        text-align: center;
+        background-color:  #f0f2ff;
+        height: 400px;
+        margin: 50px 0px 20px 20px;
+    }
+
+    .productive h1{
+        margin-top: 30px;
+    }
+
+    .productive h1{
+        font-size: 45px;
+        margin-top: 15px;
+    }
+.productive-item{
+
+    display: flex;
+}
+    .productive-1{
+        width: 31.3%;
+    
+    }
+    .productive-1 h1{
+        font-size: 90px;
+        color: #0800ff;
+  
+        
+    }
+
+    .productive-2 {
+        width: 31.3%;
+    
+        
+
+    }
+    
+    .productive-2 h1{
+        font-size: 90px;
+        color: #0800ff;
+  
+        
+    }
+
+    
+
+        
+    .productive-3{
+        width: 31.3%;
+        
+        
+
+    }
+
+    
+    .productive-3 h1{
+        font-size: 90px;
+        color: #0800ff;
+  
+       
+        
+        .
+    }
+.active{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    width: 100;
+}
