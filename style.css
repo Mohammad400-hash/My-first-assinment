@@ -302,3 +302,22 @@ nav ul li a {
 
 }
 
+/* Fucos */
+.Possible{
+    margin-left: 260px;
+    background-color: #FFFFFF;
+}
+
+.Possible h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #00000;
+}
+.Possible h3{
+    font-weight: 200;
+}
+
+.Possible-up img{
+    margin-top: 20px;
+    border-radius: 24px;
+}
