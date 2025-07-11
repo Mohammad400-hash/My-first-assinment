@@ -1,13 +1,12 @@
 
 
-.open-sans-Normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.inter {
+    font-family: "Inter", sans-serif;
+
 }
+
+.raleway {
+    font-family: "Raleway", sans-serif;}
 
 /* nav styles */
 
@@ -130,7 +129,7 @@ nav ul li a {
 
     .productive{
         text-align: center;
-        background-color:  #f0f2ff;
+        background-color: #F5F8FF;
         height: 400px;
         margin: 50px 0px 20px 20px;
     }
@@ -149,6 +148,7 @@ nav ul li a {
 }
     .productive-1{
         width: 31.3%;
+        float: left;
     
     }
     .productive-1 h1{
@@ -160,6 +160,7 @@ nav ul li a {
 
     .productive-2 {
         width: 31.3%;
+        float: left;
     
         
 
@@ -177,6 +178,7 @@ nav ul li a {
         
     .productive-3{
         width: 31.3%;
+        float: left;
         
         
 
@@ -197,3 +199,106 @@ nav ul li a {
     top: 20px;
     width: 100;
 }
+
+
+/* possible*/
+* Active User Section Styling */
+.userSection {
+    margin: 100px 150px 150px 100px;
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 80px;
+    box-sizing: border-box;
+}
+
+.user-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.user-data-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.user-data h4 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.user-data p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* User Review Section Styling */
+.user-review-section {
+    margin: 116px auto 0px;
+}
+
+.review-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-card-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.review-card {
+    background-color: #FAFCFF;
+    box-shadow: 0 4px 4px #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.star-img {
+    margin-bottom: 24px;
+}
+
+.riviewer-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+.review-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #1E1E1E;
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+    column-gap: 12px;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    line-height: 140%;
+
+}
+
+.review-date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+    line-height: 140%;
+
+}
+
